@@ -1,0 +1,113 @@
+#problems{
+    display: flex;
+    flex-direction: column;
+    width: 860px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+}
+.problems-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 0 20px;
+    background-color: #113f67;
+
+    color: white;
+    font-weight: lighter;
+    border-bottom:  0.5px solid rgba(193, 193, 193,0.5); 
+    
+    
+}
+.problems-header .number{
+    width: 20%;
+}
+.problems-header .studentname{
+    width: 50%;
+}
+.problems-header .difficulty{
+    width: 30%;
+}
+
+.problem-container{
+    
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+.even {
+    background-color: #cddbe7;
+    color:black;
+  }
+  
+.odd {
+    background-color: whitesmoke;
+    color:black;
+  }
+   
+.problem-container .studentname{
+    
+    width: 50%;
+}
+.problem-container .studentname #problem-link{
+    color: black;
+    text-decoration: none;
+}
+
+
+.problem-container .studentname p{
+    
+    cursor: pointer;
+    transition: color 0.1s ease-in;
+}
+.problem-container .studentname p:hover{
+    color: rgb(57, 121, 231);
+}
+.problem-container .number{
+    width: 20%;
+}
+.problem-container .difficulty{
+    width: 30%;
+}
+.difficulty p.red{
+  color: rgb(241, 7, 7);
+}
+.difficulty p.green{
+    color: rgb(0, 150, 37);
+  }
+.difficulty p.yellow{
+    color: rgb(234, 191, 62);
+  }
+/* .pagination-limit{
+    
+   
+} */
+.pagination-limit select{
+    margin-top: 14.4px;
+    cursor: pointer;
+    background-color: #113f67;
+    color: rgb(213, 213, 213);
+    outline: none;
+    padding: 0 12px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    height: 32px;
+    
+}
+.pagination-limit select:hover{
+
+    background-color: #38598b;
+
+}
+  .pagination-box{
+   margin-top: 20px;
+    /* width: fit-content; */
+    width:900px;
+    display: flex;
+    /* background-color: #9a4545; */
+    justify-content: space-between;
+  }

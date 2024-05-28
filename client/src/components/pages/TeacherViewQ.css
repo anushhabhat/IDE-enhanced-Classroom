@@ -1,0 +1,45 @@
+#problem-panel{
+    /* margin-top: 0; */
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #cddbe7;
+    width: 50%;
+    min-width: 300px;
+    height: fit-content;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-left: 30px;
+}
+.prob-desc{
+    line-height: 1.4rem;
+}
+#problem-panel .prob-title h2{
+    margin: 0;
+    
+}
+.example-container{
+   font-size: 0.9rem;
+    background-color: whitesmoke;
+    padding:10px;
+    border-radius: 10px;    
+    border-style:groove;
+}
+.tag-container{
+    display: flex;
+    float:right;
+    margin-left: auto;
+    right: 0;
+}
+.tag{
+    margin: 10px;
+    font-size: 0.7rem;
+    background-color: whitesmoke;
+    padding:5px;
+    border-radius: 20px;
+    width:fit-content;
+    height: 20px;
+    opacity: 80%;
+}
